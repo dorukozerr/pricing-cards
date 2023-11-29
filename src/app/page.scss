@@ -1,0 +1,213 @@
+.page {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .cardsContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38px;
+    overflow: auto;
+
+    @media (max-width: 1300px) {
+      justify-content: flex-start;
+      padding: 50px;
+    }
+
+    @media (max-width: 768px) {
+      padding: 20px;
+    }
+
+    .card {
+      box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+      height: 505px;
+      min-width: 380px;
+      border-radius: 8px;
+      border: 1px solid #f2f5f9;
+      padding: 32px;
+
+      @media (max-width: 768px) {
+        min-width: 327px;
+      }
+
+      .logo {
+        margin-bottom: 16px;
+      }
+
+      h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 16px;
+        color: #364153;
+        font-weight: 500;
+      }
+
+      h3 {
+        font-size: 30px;
+        line-height: 38px;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+
+      .line {
+        width: 100%;
+        height: 2px;
+        background: #f1eefd;
+        margin-bottom: 24px;
+      }
+
+      .features {
+        margin-bottom: 40px;
+
+        .feature {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+          .text {
+            color: #364153;
+            font-size: 16px;
+            line-height: 24px;
+            margin-left: 12px;
+          }
+
+          .faded {
+            color: #677389;
+          }
+        }
+
+        .feature:not(:last-child) {
+          margin-bottom: 16px;
+        }
+      }
+
+      .btn {
+        width: 100%s;
+        height: 48px;
+        background: #0049e6;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border-radius: 8px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .modalBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .modal {
+      width: 596px;
+      height: 570px;
+      background: #fff;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 24px;
+
+      @media (max-width: 768px) {
+        width: 100%;
+        height: 100%;
+      }
+
+      .t1 {
+        font-size: 16px;
+        line-height: 20px;
+        color: #020246;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+
+      .t2 {
+        margin-top: 8px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 20px;
+        color: #677389;
+        text-align: center;
+
+        span {
+          color: #111729;
+        }
+      }
+
+      .line {
+        height: 1px;
+        width: 100%;
+        background: #e3e7ef;
+      }
+
+      .t3 {
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 30px;
+        color: #000;
+        text-align: left;
+        width: 100%;
+      }
+
+      .infoBox {
+        max-width: 548px;
+        width: 100%;
+        height: 100px;
+        border-radius: 8px;
+        background-color: #f9fafc;
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 40px;
+
+        .info1 {
+          font-size: 16px;
+          line-height: 24px;
+          color: #364153;
+        }
+
+        .info2 {
+          font-size: 18px;
+          line-height: 28px;
+          color: #111729;
+          font-weight: 700;
+        }
+      }
+
+      .filler {
+        @media (max-width: 768px) {
+          flex: 1;
+        }
+      }
+
+      .btn {
+        margin-top: 16px;
+        width: 100%;
+        height: 48px;
+        color: #fff;
+        background: #0049e6;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        line-height: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+}

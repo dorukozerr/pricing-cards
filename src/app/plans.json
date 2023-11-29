@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "Koruma Paketi - 1",
+    "price": "₺450,00",
+    "features": [
+      { "id": "f1", "name": "Ücretsiz Onarım", "icon": "checkMark" },
+      { "id": "f2", "name": "Ücretsiz Değişim", "icon": "checkMark" },
+      { "id": "f3", "name": "Ek 1 Yıl Garanti", "icon": "checkMark" },
+      { "id": "f4", "name": "Dahil Olmayan Özellik", "icon": "xMark" },
+      { "id": "f5", "name": "Dahil Olmayan Özellik", "icon": "xMark" }
+    ],
+    "isFav": false
+  },
+  {
+    "id": 2,
+    "name": "Koruma Paketi - 2",
+    "price": "₺630,00",
+    "features": [
+      { "id": "f6", "name": "Ücretsiz Onarım", "icon": "checkMark" },
+      { "id": "f7", "name": "Ücretsiz Değişim", "icon": "checkMark" },
+      { "id": "f8", "name": "Ek 2 Yıl Garanti", "icon": "checkMark" },
+      { "id": "f9", "name": "Özellik - 1", "icon": "checkMark" },
+      { "id": "f10", "name": "Özellik - 2", "icon": "checkMark" }
+    ],
+    "isFav": true
+  },
+  {
+    "id": 3,
+    "name": "Koruma Paketi - 3",
+    "price": "₺970,00",
+    "features": [
+      { "id": "f11", "name": "Ücretsiz Onarım", "icon": "checkMark" },
+      { "id": "f12", "name": "Ücretsiz Değişim", "icon": "checkMark" },
+      { "id": "f13", "name": "Ek 3 Yıl Garanti", "icon": "checkMark" },
+      { "id": "f14", "name": "1 Özellik Daha Eklenmeli", "icon": "checkMark" },
+      { "id": "f15", "name": "Dahil Olmayan Özellik", "icon": "xMark" }
+    ],
+    "isFav": false
+  }
+]
