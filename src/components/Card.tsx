@@ -4,6 +4,7 @@ import { CardProps } from '@/types'
 export default function Card({ plan, handleClick }: CardProps) {
   return (
     <div key={plan.id} className='card'>
+      {plan.isFav && <div className='topbar'>Önerilen</div>}
       <div className='logo'>
         <Image alt='Fixpack Logo' src='/fixpack.svg' width={76} height={21} />
       </div>
